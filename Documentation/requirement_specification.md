@@ -3,28 +3,26 @@
 ## Purpose of the application
 
 With the application users are able to keep track of the lessons they have held.
-Sovelluksen avulla käyttäjien on mahdollista pitää kirjaa pitämistään opetustunneista.
 Users can log the duration, the date and different contents of the lessons.
-Pitämästään opetustunneista voi kirjata niiden keston, päivämäärän sekä sisällöt.
 There are ready-made option for the contents in the application. Users can also create contents by themselves.
-Sisältövaihtoehtoja annetaan sovelluksessa valmiina, mutta niitä voi luoda myös itse.
 Many registered users are able to use the application? They all have their unique list of lessons.
-Sovellusta on mahdollista käyttää useamman rekisteröityneen käyttäjän, joilla kaikilla on oma yksilöllinen tuntilistansa.
 The list is possible to upload to a spreadsheet. This way it could be shared or modify with other applications.
-Lista olisi mahdollista ladata taulukkolaskentatiedostoksi, jota sitä voi mahdollisesti jakaa tai jatkokäsitellä muilla sovelluksilla.
 For UX would be pleasant the application shows the current weather.
 
-## Käyttäjät
+## Users
 
-Alkuvaiheessa sovelluksella on ainoastaan yksi käyttäjärooli eli _normaali käyttäjä_. Myöhemmin sovellukseen saatetaan lisätä suuremmilla oikeuksilla varustettu _pääkäyttäjä_.
+In the beginning there is only one user role. It's possible that a test user role might be added later. It would 
+be for testing functionality of the app without saving data to the database.
 
-## Käyttöliittymäluonnos
 
-Sovellus koostuu kolmesta eri näkymästä
+## User interface draft
+
+The application consists of four different views.
 
 <img src="https://raw.githubusercontent.com/ollipo/projectLessonApp/master/Documentation/user_interface_draft.png" width="750">
 
-Sovellus aukeaa kirjautumisnäkymään, josta on mahdollista siirtyä uuden käyttäjän luomisnäkymään tai onnistuneen kirjautumisen yhteydessä kirjaantuneen käyttäjän tehtävälistaan.
+The application opens to a login page. From there it is possible to proceed to a new user creation view and after a successful 
+login to a view with lessonlist. From the lessonlist view it is possible to proceed to new lesson creation view.
 
 ## Perusversion tarjoama toiminnallisuus
 

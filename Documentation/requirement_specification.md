@@ -22,7 +22,7 @@ Alkuvaiheessa sovelluksella on ainoastaan yksi käyttäjärooli eli _normaali k�
 
 Sovellus koostuu kolmesta eri näkymästä
 
-<img src="https://raw.githubusercontent.com/ollipo/projectLessonApp/blob/master/Documentation/user_interface_draft.png" width="750">
+<img src="https://raw.githubusercontent.com/ollipo/projectLessonApp/master/Documentation/user_interface_draft.png" width="750">
 
 Sovellus aukeaa kirjautumisnäkymään, josta on mahdollista siirtyä uuden käyttäjän luomisnäkymään tai onnistuneen kirjautumisen yhteydessä kirjaantuneen käyttäjän tehtävälistaan.
 

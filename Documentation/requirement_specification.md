@@ -24,9 +24,9 @@ The application consists of four different views.
 The application opens to a login page. From there it is possible to proceed to a new user creation view and after a successful 
 login to a view with lessonlist. From the lessonlist view it is possible to proceed to new lesson creation view.
 
-## Perusversion tarjoama toiminnallisuus
+## Functionality provided by the basic version
 
-### Ennen kirjautumista
+### Before login
 
 - käyttäjä voi luoda järjestelmään käyttäjätunnuksen
   - käyttäjätunnuksen täytyy olla uniikki ja pituudeltaan vähintään 3 merkkiä

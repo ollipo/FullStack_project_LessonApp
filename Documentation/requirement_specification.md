@@ -5,9 +5,8 @@
 With the application users are able to keep track of the lessons they have held.
 Users can log the duration, the date and different contents of the lessons.
 There are ready-made option for the contents in the application. Users can also create contents by themselves.
-Many registered users are able to use the application? They all have their unique list of lessons.
-The list is possible to upload to a spreadsheet. This way it could be shared or modify with other applications.
-For UX would be pleasant the application shows the current weather.
+Many registered users are able to use the application. They all have their unique list of lessons.
+For UX purposes the application shows the current weather at it's login page.
 
 ## Users
 
@@ -28,35 +27,26 @@ login to a view with lessonlist. From the lessonlist view it is possible to proc
 
 ### Before login
 
-- käyttäjä voi luoda järjestelmään käyttäjätunnuksen
-  - käyttäjätunnuksen täytyy olla uniikki ja pituudeltaan vähintään 3 merkkiä
+- user can create a new user to the database
+  - username must be unique and minimum length is three characters
+  - minimum length for the password is six characters
 
-- käyttäjä voi kirjautua järjestelmään
-  - kirjautuminen onnistuu syötettäessä olemassaoleva käyttäjätunnus kirjautumislomakkeelle
-  - jos käyttäjää ei olemassa, ilmoittaa järjestelmä tästä
+- user can log in to the application
+  - login is successful when user enters a valid username and a password to the login form
+  - the application notifies the user if the user does't exist in the database
 
-### Kirjautumisen jälkeen
+### After login
 
-- käyttäjä näkee omat tekemättömät työt eli _todot_
+- users see their own lessonlists
+- user can create a new lesson note
+  - only the person who creates the lesson note sees it
+- user can delete a lesson note from the lesson list
+- user can log out from the application
 
-- käyttäjä voi luoda uuden todon
-  - luotu todo näkyy ainoastaan sen luoneelle käyttäjälle
+## Further development ideas
 
-- käyttäjä voi merkitä todon tehdyksi, jolloin todo häviää listalta
+After the basic version the application can be developed with following functionalities
 
-- käyttäjä voi kirjautua ulos järjestelmästä
-
-## Jatkokehitysideoita
-
-Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla
-
-- tehdyksi merkittyjen todojen tarkastelu
-- tehdyksi merkittyjen todojen merkkaaminen tekemättömiksi
-- todon tietojen editointi
-- todojen järjestely tärkeysjärjestykseen
-- todojen määrittely muille käyttäjille
-- käyttäjätiimit, jotka näkevät kaikki yhteiset todot
-- mahdollisuus useampaan erilliseen todo-listaan
-- lisätään todoon kenttä, johon on mahdollista merkitä tarkempia todoon liittyviä tietoja
-- käyttäjien yhteyteen salasana, joka vaaditaan kirjautuessa
+- user can edit lesson notes
+- The lesson list is possible to upload to a spreadsheet. This way it could be shared or modified with other applications.
 - käyttäjätunnuksen (ja siihen liittyvien todojen) poisto

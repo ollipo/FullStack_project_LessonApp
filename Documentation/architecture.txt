@@ -2,7 +2,9 @@
 
 ## Structure
 
-Flux frontissa, backi? rest?
+Flux frontissa: States of the components are stored using redux. User's login state is handled with local storage.
+The backend has a client-server architecture which transmits data following RESTful HTTP API principles. Each lesson note has
+a unique URL. Application uses JSON formatted data.
 
 Ohjelman rakenne noudattelee kolmitasoista kerrosarkkitehtuuria, ja koodin pakkausrakenne on seuraava:
 

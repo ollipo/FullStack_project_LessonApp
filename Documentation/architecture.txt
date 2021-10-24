@@ -2,9 +2,15 @@
 
 ## Structure
 
-Flux frontissa: States of the components are stored using redux. User's login state is handled with local storage.
+The frontend of the application follows the Flux architecture. The idea is to keep the components of the application as simple as possible
+keeping the separation of concerns principle in mind. The states of the components are mainly stored into stores using Redux, React-Redux and Redux Thunk -libraries.
+Apart from Redux handling the components states user's login state is handled with local storage and user's inputs are handled with React Hooks.
+
 The backend has a client-server architecture which transmits data following RESTful HTTP API principles. Each lesson note has
-a unique URL. Application uses JSON formatted data.
+a unique URL. They are handled with basic HTTP methods: GET, POST, PUT and DELETE. Application uses JSON formatted data.
+
+Although the client and the server codes are separated in the development phase the client's production build is copied to the backend 
+before deploying the application to the Internet.
 
 Ohjelman rakenne noudattelee kolmitasoista kerrosarkkitehtuuria, ja koodin pakkausrakenne on seuraava:
 

@@ -4,7 +4,7 @@
 
 With the application users are able to keep track of the lessons they have held.
 Users can log the duration, the date and different contents of the lessons.
-There are ready-made option for the contents in the application. Users can also create contents by themselves.
+There are ready-made options for the contents in the application. Users can also create contents by themselves.
 Many registered users are able to use the application. They all have their unique list of lessons.
 For UX purposes the application shows the current weather at it's login page.
 

@@ -6,4 +6,5 @@
 | 5.10. | 1    | requirement specification |
 | 19.10. | 1    | requirement specification |
 | 24.10. | 1    | architecture documentation |
-| yht   | 4   | | 
+| 24.10. | 2    | reuirement specs, architecture documentation |
+| yht   | 6   | | 

@@ -10,8 +10,7 @@ For UX purposes the application shows the current weather at it's login page.
 
 ## Users
 
-In the beginning there is only one user role. It's possible that a test user role might be added later. It would 
-be for testing functionality of the app without saving data to the database.
+In the beginning there is only one user role. Other roles may be added later if needed and if there is time for it.
 
 
 ## User interface draft
@@ -21,7 +20,7 @@ The application consists of four different views.
 <img src="https://raw.githubusercontent.com/ollipo/projectLessonApp/master/Documentation/user_interface_draft.png" width="750">
 
 The application opens to a login page. From there it is possible to proceed to a new user creation view and after a successful 
-login to a view with lessonlist. From the lessonlist view it is possible to proceed to new lesson creation view.
+login to a view with lessonlist. From the lessonlist view it is possible to proceed to a new lesson creation view.
 
 ## Functionality provided by the basic version
 
@@ -33,7 +32,7 @@ login to a view with lessonlist. From the lessonlist view it is possible to proc
 
 - user can log in to the application
   - login is successful when user enters a valid username and a password to the login form
-  - the application notifies the user if the user does't exist in the database
+  - the application notifies the user if the user doesn't exist in the database
 
 ### After login
 
@@ -48,5 +47,9 @@ login to a view with lessonlist. From the lessonlist view it is possible to proc
 After the basic version the application can be developed with following functionalities
 
 - user can edit lesson notes
+- user can sort the lesson notes
+- user can filter the lesson notes and search for a note
 - The lesson list is possible to upload to a spreadsheet. This way it could be shared or modified with other applications.
+- User's own username can be deleted. Then will also the notes be deleted.
+- Group user role could be added
 - käyttäjätunnuksen (ja siihen liittyvien todojen) poisto

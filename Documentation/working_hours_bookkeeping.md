@@ -6,5 +6,6 @@
 | 5.10. | 1    | requirement specification |
 | 19.10. | 1    | requirement specification |
 | 24.10. | 1    | architecture documentation |
-| 24.10. | 2    | reuirement specs, architecture documentation |
-| yht   | 6   | | 
+| 20.11. | 2    | requirement specs, architecture documentation |
+| 21.11. | 2    | reading how to put client and server in asingle repository for CI/CD purposes |
+| yht   | 8   | | 

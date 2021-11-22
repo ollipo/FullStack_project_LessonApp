@@ -8,4 +8,5 @@
 | 24.10. | 1    | architecture documentation |
 | 20.11. | 2    | requirement specs, architecture documentation |
 | 21.11. | 2    | reading how to put client and server in asingle repository for CI/CD purposes |
-| yht   | 8   | | 
+| 22.11. | 3    | setting up server |
+| yht   | 11   | | 

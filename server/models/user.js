@@ -14,7 +14,9 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-});
+},
+{ bufferTimeoutMS: 100000 },
+);
 
 userSchema.set('toJSON', {
   transform: (document, returnedObject) => {

@@ -6,11 +6,13 @@ const helper = require('./test_helper');
 const app = require('../app');
 
 const api = supertest(app);
+console.log(mongoose.connection.readyState);
 
 describe('when there is initially one user in db', () => {
   beforeEach(async () => {
+    console.log(mongoose.connection.readyState);
     await User.deleteMany({});
-
+    console.log(mongoose.connection.readyState);
     const passwordHash = await bcrypt.hash('sekret', 10);
     const user = new User({ username: 'root', name: 'Ruut Ruutana', passwordHash });
 

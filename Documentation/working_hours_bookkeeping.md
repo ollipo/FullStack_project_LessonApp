@@ -10,5 +10,5 @@
 | 21.11. | 2    | reading how to put client and server in asingle repository for CI/CD purposes |
 | 22.11. | 3    | setting up server |
 | 22.11. | 1,5    | adding test for user creation |
-| 23.11. | 0,5    | adding CI/CD template to github |
-| yht   | 13   | | 
+| 23.11. | 4,5    | adding CI/CD template to github, troubleshooting test failure in CI/CD |
+| yht   | 17   | | 

@@ -10,16 +10,13 @@ const usersRouter = require('./controllers/users');
 
 logger.info('connecting to', config.MONGODB_URI);
 
-const connectDB = async () => {
-  try {
-    await mongoose.connect(config.MONGODB_URI);
+mongoose.connect(config.MONGODB_URI)
+  .then(() => {
     logger.info('connected to MongoDB');
-  } catch (error) {
+  })
+  .catch((error) => {
     logger.error('error connecting to MongoDB:', error.message);
-  }
-};
-
-connectDB();
+  });
 
 // app.use(cors())
 // app.use(express.static('build'))

@@ -4,13 +4,11 @@ const bcrypt = require('bcrypt');
 const User = require('../models/user');
 const helper = require('./test_helper');
 const app = require('../app');
-const config = require('../utils/config');
 
 const api = supertest(app);
 
 describe('when there is initially one user in db', () => {
   beforeEach(async () => {
-    await mongoose.connect(`${config.MONGODB_URI}`);
     await User.deleteMany({});
 
     const passwordHash = await bcrypt.hash('sekret', 10);

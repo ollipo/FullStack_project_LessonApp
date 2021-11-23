@@ -10,6 +10,8 @@ const usersRouter = require('./controllers/users');
 
 logger.info('connecting to', config.MONGODB_URI);
 
+console.log('uritesting in app: ', config.URI_TESTING);
+
 mongoose.connect(config.MONGODB_URI)
   .then(() => {
     logger.info('connected to MongoDB');

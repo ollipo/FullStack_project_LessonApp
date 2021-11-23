@@ -9,7 +9,7 @@ const api = supertest(app);
 
 describe('when there is initially one user in db', () => {
   beforeEach(async () => {
-    await User.deleteMany({});
+    await User.deleteMany({}).maxTimeMS(100000);
 
     const passwordHash = await bcrypt.hash('sekret', 10);
     const user = new User({ username: 'root', name: 'Ruut Ruutana', passwordHash });

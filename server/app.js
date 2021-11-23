@@ -10,7 +10,7 @@ const usersRouter = require('./controllers/users');
 
 logger.info('connecting to', config.MONGODB_URI);
 
-console.log('uritesting in app: ', config.URI_TESTING);
+console.log('uritesting in app: ', config.URI_TESTING === 'dippadai');
 
 mongoose.connect(config.MONGODB_URI)
   .then(() => {

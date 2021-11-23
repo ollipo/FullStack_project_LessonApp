@@ -16,6 +16,7 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
   },
+  { bufferTimeoutMS: 100000 },
 );
 
 userSchema.set('toJSON', {

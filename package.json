@@ -39,6 +39,6 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testTimeout": 15000
+    "testTimeout": 100000
   }
 }

@@ -10,7 +10,7 @@ const api = supertest(app);
 
 describe('when there is initially one user in db', () => {
   beforeEach(async () => {
-    await mongoose.connect(config.MONGODB_URI);
+    await mongoose.connect(`${config.MONGODB_URI}`);
     await User.deleteMany({});
 
     const passwordHash = await bcrypt.hash('sekret', 10);

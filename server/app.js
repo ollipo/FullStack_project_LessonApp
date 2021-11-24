@@ -8,6 +8,11 @@ const middleware = require('./utils/middleware');
 const logger = require('./utils/logger');
 const usersRouter = require('./controllers/users');
 
+app.post('/post', (req, res) => {
+  console.log('Connected to React');
+  res.redirect('/');
+});
+
 logger.info('connecting to', config.MONGODB_URI);
 
 mongoose.connect(config.MONGODB_URI)

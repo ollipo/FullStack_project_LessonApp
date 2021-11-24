@@ -9,7 +9,7 @@ const logger = require('./utils/logger');
 const usersRouter = require('./controllers/users');
 
 app.post('/post', (req, res) => {
-  console.log('Connected to Reactt');
+  console.log('Connected to React');
   res.redirect('/');
 });
 

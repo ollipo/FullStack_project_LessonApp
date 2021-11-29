@@ -12,5 +12,5 @@
 | 22.11. | 1,5    | adding test for user creation |
 | 23.11. | 6,5    | adding CI/CD template to github, troubleshooting test failure in CI/CD, fixed test failure |
 | 24.11. | 6    | troubleshooted heroku, separated server and client repos, reading about monorepos vs. separate repos etc. |
-| 29.11. | 2    | login form to front |
-| yht   | 27   | | 
+| 29.11. | 4,5    | login form to front, added avatar icon to the front |
+| yht   | 29,5   | | 

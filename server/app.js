@@ -7,6 +7,7 @@ const middleware = require('./utils/middleware');
 // const notesRouter = require('./controllers/notes');
 const logger = require('./utils/logger');
 const usersRouter = require('./controllers/users');
+const lessonsRouter = require('./controllers/lessons');
 
 app.post('/post', (req, res) => {
   console.log('Connected to React, nice');
@@ -29,6 +30,7 @@ app.use(express.json());
 
 // app.use('/api/notes', notesRouter);
 app.use('/api/users', usersRouter);
+app.use('/api/lessons', lessonsRouter);
 
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);

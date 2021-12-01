@@ -13,5 +13,5 @@
 | 23.11. | 6,5    | adding CI/CD template to github, troubleshooting test failure in CI/CD, fixed test failure |
 | 24.11. | 6    | troubleshooted heroku, separated server and client repos, reading about monorepos vs. separate repos etc. |
 | 29.11. | 5,5    | login form to front, added avatar icon to the front, made test for Login component |
-| 1.12. | 7    | create new user button to front, added lessonlist component and access to it, added data to db and rendered to front with redux |
-| yht   | 37,5   | | 
+| 1.12. | 7,5    | create new user button to front, added lessonlist component and access to it, added data to db and rendered to front with redux, heroku config vars |
+| yht   | 38   | | 

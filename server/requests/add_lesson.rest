@@ -2,7 +2,7 @@ POST http://localhost:3001/api/lessons
 Content-Type: application/json
 
 {
-    "topic": "math board games",
-    "date": "2021-11-19",
-    "duration": "1,5h"
+    "topic": "reading together",
+    "date": "2021-12-4",
+    "duration": "2h"
 }

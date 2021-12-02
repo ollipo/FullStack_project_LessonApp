@@ -14,5 +14,5 @@
 | 24.11. | 6    | troubleshooted heroku, separated server and client repos, reading about monorepos vs. separate repos etc. |
 | 29.11. | 5,5    | login form to front, added avatar icon to the front, made test for Login component |
 | 1.12. | 9    | create new user button to front, added lessonlist component and access to it, added data to db and rendered to front with redux, heroku config vars, designing add new lesson form |
-| 2.12. | 1    | added attributes to lesson schema and rendered them |
-| yht   | 40,5   | | 
+| 2.12. | 3,5    | added attributes to lesson schema and rendered them, started making form for adding lessons |
+| yht   | 43  | | 

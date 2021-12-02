@@ -3,6 +3,14 @@ Content-Type: application/json
 
 {
     "topic": "reading together",
+    "contents": {
+        "subject": "literature",
+        "content": "we read chapter 11"
+    },
+    "students": {
+        "name": "Olli Porvari",
+        "class": "4"
+    },
     "date": "2021-12-4",
     "duration": "2h"
 }

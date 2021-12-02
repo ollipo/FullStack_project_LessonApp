@@ -7,6 +7,29 @@ const lessonSchema = new mongoose.Schema(
       minLength: 3,
       required: true,
     },
+    contents: [
+      {
+        subject: {
+          type: String,
+        },
+        content: {
+          type: String,
+          required: true,
+        },
+      },
+    ],
+    students: [
+      {
+        name: {
+          type: String,
+          required: true,
+        },
+        class: {
+          type: String,
+          required: true,
+        },
+      },
+    ],
     date: {
       type: String,
       required: true,

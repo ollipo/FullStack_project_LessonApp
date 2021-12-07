@@ -17,5 +17,5 @@
 | 2.12. | 6    | added attributes to lesson schema and rendered them, started making form for adding lessons, adjusting the form, select values to state and to render |
 | 3.12. | 5,5    | adjusting filtering to lessonform, added attributes to lessonform, testing dateAndTime picker |
 | 5.12. | 1,5    | refactoring the code to separate components and functions |
-| 7.12. | 2    | refactoring the code to separate components |
-| yht   | 54,5  | | 
+| 7.12. | 3    | refactoring the code to separate components, added formatted dateAndTime values to formValues |
+| yht   | 55,5  | | 

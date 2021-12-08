@@ -18,5 +18,5 @@
 | 3.12. | 5,5    | adjusting filtering to lessonform, added attributes to lessonform, testing dateAndTime picker |
 | 5.12. | 1,5    | refactoring the code to separate components and functions |
 | 7.12. | 3    | refactoring the code to separate components, added formatted dateAndTime values to formValues |
-| 8.12. | 1,5    | reading about testing forms |
-| yht   | 57  | | 
+| 8.12. | 3    | reading about testing forms, added test to LessoFormTopic component |
+| yht   | 58,5  | | 
